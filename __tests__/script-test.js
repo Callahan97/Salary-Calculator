@@ -10,7 +10,7 @@ const fs = require('fs')
 const path = require('path')
 
 const htmlFile = fs.readFileSync(path.resolve(__dirname, '../index.html'), 'utf8')
-const jsFile = fs.readFileSync(path.resolve(__dirname, '../script.js'), 'utf8')
+const jsFile = fs.readFileSync(path.resolve(__dirname, '../Scripts/script.js'), 'utf8')
 
 
 let dom
